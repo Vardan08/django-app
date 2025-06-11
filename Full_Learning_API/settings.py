@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!y5b^evve^05jxvj!r8qdrqx_^+py)!i-q+q_=vmz$ie@6c7dx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-app-usrk.onrender.com', 'localhost', '127.0.0.1']
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
@@ -159,4 +159,5 @@ AUTHENTICATION_BACKENDS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5500",
+    "https://django-app-usrk.onrender.com",
 ]
